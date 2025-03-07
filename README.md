@@ -11,9 +11,11 @@ Live2D-demo/
 │   └── live2dcubismcore.min.js  # live2d 核心加载文件
 └── src/
     ├── components
-    │   └── Live2D.vue           # 模型组件
+    │   └── Live2D.vue           # live2d 模型组件
     └── App.vue                  # 根组件
 ```
+
+其中的 `hiyori_free_zh` 文件夹是 live2d 模型文件，是可以替换成你自己喜欢的模型滴。
 
 ## 快速开始
 
