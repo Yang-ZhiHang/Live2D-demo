@@ -1,29 +1,34 @@
 # live2d
 
-This template should help get you started developing with Vue 3 in Vite.
+本项目基于 Vue3，用于展示最简单的 live2d 模型使用。
 
-## Recommended IDE Setup
+## 项目结构
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+```bash
+Live2D-demo/
+├── public/
+│   ├── hiyori_free_zh/          # 模型文件
+│   └── live2dcubismcore.min.js  # live2d 核心加载文件
+└── src/
+    ├── components
+    │   └── Live2D.vue           # 模型组件
+    └── App.vue                  # 根组件
+```
 
-## Customize configuration
+## 快速开始
 
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
+### 安装依赖包
 
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### 运行项目
 
 ```sh
 npm run dev
 ```
 
-### Compile and Minify for Production
+## 结果预览
 
-```sh
-npm run build
-```
+![](./preview.png)
